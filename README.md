@@ -2,6 +2,10 @@ See App.vue for more techniques
 
 ref引用
 
+emmet abbreviation
+before: script
+after:  <script></script>
+
 https://youtu.be/F7PLPJqVotk?si=3wCcVTbenCY-gbdw
 https://vuejs.org/tutorial/#step-3
 http://localhost:5173/

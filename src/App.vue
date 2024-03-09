@@ -48,7 +48,7 @@ Make me red
 2nd ref was relative to css style
 3rd class was relative to constant variable
 which means :class first goes to the variable then redirected to style
-<script setup>
+<!-- <script setup>
 import { ref } from "vue";
 const titleClass = ref("title");
 </script>
@@ -61,4 +61,32 @@ const titleClass = ref("title");
 .title {
   color: red;
 }
-</style>
+</style> -->
+Event Listeners counter project
+remember .value when using ref to initiate values
+
+<!-- <script setup>
+import { ref } from "vue";
+const counter = ref(0);
+const increment = () => {
+  counter.value += 1;
+};
+</script>
+<template>
+  <button @click="increment">increment</button>
+  <h1>Count is:{{ counter }}</h1>
+</template> -->
+
+<script setup>
+import { ref } from "vue";
+
+const text = ref("");
+const changeValue = (e) => {
+  text.value = e.target.value;
+};
+</script>
+<template>
+  <input :value="text" v-on:input="changeValue" />
+  <!-- <input v-model="text" /> -->
+  {{ text }}
+</template>
