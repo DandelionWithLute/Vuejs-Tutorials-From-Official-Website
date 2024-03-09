@@ -1,14 +1,30 @@
 See App.vue for more techniques
+[important]newly found ctrl+space can invoke suggestions
 
 ref引用
+emit发出
+slot(机器或容器上的) 狭槽; 投币口
+    pass data to it ? data : slot content by default
+
+
 
 emmet abbreviation
 before: script
 after:  <script></script>
 
-https://youtu.be/F7PLPJqVotk?si=3wCcVTbenCY-gbdw
+<!-- https://youtu.be/F7PLPJqVotk?si=3wCcVTbenCY-gbdw -->
 https://vuejs.org/tutorial/#step-3
 http://localhost:5173/
+
+HTML <pre> Tag
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+https://www.w3schools.com/tags/tag_pre.asp
 
 # Vue 3 + Vite
 
